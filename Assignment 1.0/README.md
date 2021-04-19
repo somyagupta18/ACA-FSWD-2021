@@ -12,11 +12,11 @@
 
 **git diff**: helps to show changes between commits and working tree
 
-**git clone https://github.com/SOME NAME.git**: helps to copy a specific repository
+**git clone https://github.com/SOME-NAME.git** : helps to copy a specific repository
 
-git remote helps to maintain connections with other repositories
-   **- git remote -v**
-    **- git remote add origin https://github.com/SOME OTHER NAME.git**
+- git remote helps to maintain connections with other repositories
+    **- git remote -v**
+    **- git remote add origin https://github.com/SOME-OTHER-NAME.git**
 
 git push uploads your local branches to the corresponding remote branches
     **- git push origin**
