@@ -1,6 +1,5 @@
 # COMMANDS 
 
-'''
 **git init**: Transform the current directory into a git repository
 
 **git status**: shows the current state of your Git working directory and staging area
@@ -34,5 +33,3 @@ git reset helps to undo repository to any particular state present in the histor
 **git branch**: operates branching operations such as list, delete and creates branches in the repository
 
 **git checkout feature-1**: helps to switch between branches
-
-'''
