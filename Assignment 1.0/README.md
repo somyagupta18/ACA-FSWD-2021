@@ -1,4 +1,4 @@
-#COMMANDS 
+# COMMANDS 
 
 git init: Transform the current directory into a git repository
 
