@@ -1,3 +1,4 @@
+# COMMANDS
 
 git init: Transform the current directory into a git repository
 
@@ -14,20 +15,20 @@ git diff: helps to show changes between commits and working tree
 git clone https://github.com/IMGIITRoorkee/git-workshop-2020.git: helps to copy a specific repository
 
 git remote helps to maintain connections with other repositories
-    git remote -v
-    git remote add origin https://vghchc/vgh.git
+    - git remote -v
+    - git remote add origin https://vghchc/vgh.git
 
 git push uploads your local branches to the corresponding remote branches
-    git push origin
-    git push origin master
+    - git push origin
+    - git push origin master
 
 git pull updates your local working branches from the corresponding remote branches
-    git pull origin
-    git pull origin master
+    - git pull origin
+    - git pull origin master
 
 git reset helps to undo repository to any particular state present in the history of the repository
-    git reset --soft: Resetting repository to a given commit and adds all the changes to the staging area
-    git reset --hard:  Resetting repository to a given commit and deleting all the changes
+    - git reset --soft: Resetting repository to a given commit and adds all the changes to the staging area
+    - git reset --hard:  Resetting repository to a given commit and deleting all the changes
 
 git branch: operates branching operations such as list, delete and creates branches in the repository
 
