@@ -1,4 +1,21 @@
-# COMMANDS 
+# ACA PROJECT 2021
+> FULL STACK WEB DEVELOPMENT 
+
+
+## Mentors
+- [Kartikeya Gupta](https://github.com/kartikcode)
+- [Ketan Chaturvedi](https://github.com/ketanch)
+- [Priyanshu Yadav](https://github.com/pr-yadav)
+
+![IMAGE OF WEBDEV](https://appsmaventech.com/images/blog/The-Evolution-Of-Web-Development-Via-Machine-Learning.jpg)
+
+<hr>
+
+## TASK
+Making a basic ".md" file and creating a new branch.
+
+
+## GIT COMMANDS 
 
 **git init**: Transform the current directory into a git repository
 
@@ -33,4 +50,7 @@ git reset helps to undo repository to any particular state present in the histor
 **git branch**: operates branching operations such as list, delete and creates branches in the repository
 
 **git checkout feature-1**: helps to switch between branches
----
+
+<hr>
+
+More coming soon!
