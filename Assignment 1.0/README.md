@@ -1,6 +1,12 @@
 # ACA PROJECT 2021
 > FULL STACK WEB DEVELOPMENT 
 
+
+## Mentors
+- [Kartikeya Gupta](https://github.com/kartikcode)
+- [Ketan Chaturvedi](https://github.com/ketanch)
+- [Priyanshu Yadav](https://github.com/pr-yadav)
+
 ![IMAGE OF WEBDEV](https://appsmaventech.com/images/blog/The-Evolution-Of-Web-Development-Via-Machine-Learning.jpg)
 
 <hr>
@@ -47,4 +53,4 @@ git reset helps to undo repository to any particular state present in the histor
 
 <hr>
 
-For more, checkout the alternative branch!
+More coming soon!
