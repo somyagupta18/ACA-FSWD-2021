@@ -17,19 +17,19 @@ Making a basic ".md" file and creating a new branch.
 
 ## GIT COMMANDS 
 
-` **git init** `: Transform the current directory into a git repository
+  **` git init `**: Transform the current directory into a git repository
 
-` **git status** `: shows the current state of your Git working directory and staging area
+**` git status `** : shows the current state of your Git working directory and staging area
 
-` **git add <filename>** `: Puts that file into the staging area
+**` git add <filename> `** : Puts that file into the staging area
 
-` **git commit -m “Your message for the commit”** `: captures a snapshot of the project’s currently staged changes
+**` git commit -m “Your message for the commit” `**: captures a snapshot of the project’s currently staged changes
 
-` **git log** `: helps to list the commits in reverse chronological order
+**` git log `**: helps to list the commits in reverse chronological order
 
-` **git diff** `: helps to show changes between commits and working tree
+**` git diff `**: helps to show changes between commits and working tree
 
-` **git clone https://github.com/SOME-NAME.git** ` : helps to copy a specific repository
+**` git clone https://github.com/SOME-NAME.git `** : helps to copy a specific repository
 
 git remote helps to maintain connections with other repositories
    - **` git remote -v `**
