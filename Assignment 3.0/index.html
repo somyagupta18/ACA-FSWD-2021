@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<head>
+    <title>HTTP Requests</title>
+</head>
+<body style="background-color:rgb(248, 244, 229)">
+    <h1><center>HTTP Requests</center></h1>
+    <div style="float:left;width: 29.7%;
+    background-color: rgb(240, 231, 196); 
+    padding: 10px 20px;
+    border: 1px solid #fff;
+	border-radius: 4%;">
+    <b><p style="font-size:medium; font-family: Verdana, Geneva, Tahoma, sans-serif;">A GET request to get a token</p></b>
+    <button type="button" 
+    style="padding: 12px 18px;
+	background-color: #b94e5e;
+	border-radius: 20px;
+    border-color:rgb(138, 57, 57) ;
+    cursor: pointer;
+	color: #fff;
+	font-size: 12px;"onclick="gettoken()">Get Token</button>
+    <p id="tokenout" 
+    style=" font-size:medium; font-weight: 600;
+    letter-spacing: 0.5px;
+    color:#5f2618;"></p><br><br><br><br><br><br><br><br><br>
+    </div>
+
+    <div style="float:left;width: 30%;
+    background-color: rgb(245, 237, 208);
+    padding: 10px 20px;
+    border: 1px solid #fff;
+	border-radius: 4%;">
+    <b><p style="font-size:medium; font-family: Verdana, Geneva, Tahoma, sans-serif;">A POST request to save user data</p></b>
+    <form style="font-size:medium;font-family:Verdana, Geneva, Tahoma, sans-serif;">
+        <label for="name">Username:</label><br>
+        <input type="text" id="name"><br><br>
+        <label for="data">Data:</label><br>
+        <input type="text" id="data"><br><br>
+        <label for="tokenin">Token:</label><br>
+        <input type="text" id="tokenin"><br><br>
+    </form>
+    <button type="button" 
+    style="padding: 12px 18px;
+	background-color: #b94e5e;
+	border-radius: 20px;
+    border-color: rgb(138, 57, 57);
+	color: #fff;
+    cursor: pointer;
+	font-size: 12px;" onclick="register()">Register</button>
+
+    <p id="savedata"></p><br>
+    </div>
+
+    <div style="float:left;width: 30%;
+    background-color: rgb(240, 231, 196); 
+    padding: 10px 20px;
+    border: 1px solid #fff;
+	border-radius: 4%;">
+    <b><p style="font-size:medium; font-family: Verdana, Geneva, Tahoma, sans-serif;">A POST request to get user data</p></b>
+    <form style="font-size:medium;font-family:Verdana, Geneva, Tahoma, sans-serif;">
+        <label for="token">Token:</label><br>
+        <input type="text" id="tokenno"><br><br>
+    </form>
+    <button type="button" 
+    style="padding: 12px 18px;
+	background-color: #b94e5e;
+    border-color: rgb(138, 57, 57);
+    cursor: pointer;
+	border-radius: 20px;
+	color: #fff;
+	font-size: 12px;"onclick="getdata()">Get Data</button>
+    <p id="error2"></p>
+    <p id="getdata"></p><br><br><br><br><br><br>
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+
+</body>
